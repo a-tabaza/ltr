@@ -4,3 +4,8 @@ ipykernel #-U --force-reinstall
 matplotlib
 scipy
 searcharray
+tqdm
+networkx[default,extra]
+scikit-learn
+usearch
+ir-measures
