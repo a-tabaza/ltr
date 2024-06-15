@@ -3,3 +3,4 @@ pandas
 ipykernel #-U --force-reinstall
 matplotlib
 scipy
+searcharray

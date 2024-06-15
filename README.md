@@ -1,5 +1,5 @@
 # Learning to Rank Playground
-This repository contains my experiments on two datasets, [KGRec: Sound and Music Recommendation with Knowledge Graphs](https://www.upf.edu/web/mtg/kgrec), methodology available in this [paper](https://dl.acm.org/doi/10.1145/2926718) (_behind a paywall, but available for free somewhere I'm sure_), and [LFM-1b](http://www.cp.jku.at/datasets/LFM-1b/), methodology available in this [paper](http://www.cp.jku.at/people/schedl/Research/Publications/pdf/schedl_icmr_2016.pdf) (_dataset is not up anymore, which implies it is accessible if there was a site that captures snapshots of sites and stores them somewhere by date_).
+This repository contains my experiments on two datasets, [KGRec: Sound and Music Recommendation with Knowledge Graphs](https://www.upf.edu/web/mtg/kgrec), detailed in this [paper](https://dl.acm.org/doi/10.1145/2926718) (_behind a paywall, but available for free somewhere I'm sure_), and [LFM-1b](http://www.cp.jku.at/datasets/LFM-1b/), detailed in this [paper](http://www.cp.jku.at/people/schedl/Research/Publications/pdf/schedl_icmr_2016.pdf) (_dataset is not up anymore, which implies it is accessible if there was a site that captures snapshots of sites and stores them somewhere by date_).
 
 # What am I trying to learn?
 - Train a PyTorch matrix factorization model from scratch
@@ -8,6 +8,9 @@ This repository contains my experiments on two datasets, [KGRec: Sound and Music
 - Use the textual features effectively
 - Use uv instead of pip for everything in this project
 - _Maybe_ distributed training
+
+# Notes:
+1. KGRec does not have the original track titles as far as I can tell, unless I missed it, the tracks are only linked through track IDs. I have the tags for some songs, and descriptions for all of them, I'd like to find a way to reverse this, maybe NER and some sort of fuzzy matching with entity disambiguation? This is not a priority but I'd like to do it at some point.
 
 # References (everything I've read so far and will read)
 - [Beyond Matrix Factorization: Using hybrid features for user-business recommendations](https://engineeringblog.yelp.com/2022/04/beyond-matrix-factorization-using-hybrid-features-for-user-business-recommendations.html)
