@@ -17,4 +17,5 @@ This repository contains my experiments on two datasets, [KGRec: Sound and Music
 - [Post about Netflix Prize](https://www.linkedin.com/feed/update/urn:li:activity:7187067122504687616/)
 - [The BigChaos Solution to the Netflix Grand Prize](https://www.asc.ohio-state.edu/statistics/statgen/joul_aut2009/BigChaos.pdf)
 - [Understanding Latent Style](https://multithreaded.stitchfix.com/blog/2018/06/28/latent-style/)
-
+- [Core components of recommender systems](https://rezkaaufar.github.io/blog/2021/recsys-core-components/)
+- [Graph Representation Learning and Its Applications: A Survey](https://www.mdpi.com/1424-8220/23/8/4168) 
