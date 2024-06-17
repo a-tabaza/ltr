@@ -22,3 +22,4 @@ This repository contains my experiments on two datasets, [KGRec: Sound and Music
 - [Understanding Latent Style](https://multithreaded.stitchfix.com/blog/2018/06/28/latent-style/)
 - [Core components of recommender systems](https://rezkaaufar.github.io/blog/2021/recsys-core-components/)
 - [Graph Representation Learning and Its Applications: A Survey](https://www.mdpi.com/1424-8220/23/8/4168) 
+- [A gentle introduction to Alternating Least Squares](https://sophwats.github.io/2018-04-05-gentle-als.html)
